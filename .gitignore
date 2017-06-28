@@ -31,3 +31,4 @@ config.status
 *.m4
 .dirstamp
 compile
+src/hwa
