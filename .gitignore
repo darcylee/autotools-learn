@@ -1,6 +1,7 @@
 # http://www.gnu.org/software/automake
 
 Makefile.in
+Makefile
 
 # http://www.gnu.org/software/autoconf
 
@@ -19,7 +20,14 @@ Makefile.in
 /config.log
 /Makefile
 
-*.deps
+.deps
 config.h
 config.h.in~
 config.status
+
+*.o
+*.la
+*.pc
+*.m4
+.dirstamp
+compile
