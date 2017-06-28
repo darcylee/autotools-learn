@@ -16,7 +16,8 @@ AC_PROG_CC
 # Checks for typedefs, structures, and compiler characteristics.
 
 # Checks for library functions.
-AC_CONFIG_FILES([Makefile])
+AC_CONFIG_FILES([Makefile]
+                src/Makefile)
 AM_INIT_AUTOMAKE([hello_autotool], [0.0.1])
 
 
