@@ -17,3 +17,9 @@ Makefile.in
 /missing
 /stamp-h1
 /config.log
+/Makefile
+
+*.deps
+config.h
+config.h.in~
+config.status
